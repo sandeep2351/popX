@@ -1,0 +1,5 @@
+
+"scripts": {
+  "dev:server": "node server/server.js",
+  "dev:all": "concurrently \"npm run dev\" \"npm run dev:server\""
+},
